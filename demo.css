@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.header-article {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 80px;
+  background-color: white;
+  box-shadow: 0px 0px 20px -9px black;
+  align-items: center;
+}
+
+.header-article-nav-menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+}
+
+.header-article-nav-menu li {
+  margin-right: 15px;
+}
+
+.header-article-nav-menu a {
+  text-decoration: none;
+  color: rgb(84, 84, 109);
+}
+
+.header-article-nav-menu button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(155, 93, 198);
+  width: 55px;
+  border: none;
+  padding: 7px;
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: 5px 8px 11px -11px black;
+}
+
+.article-diploma {
+  padding: 35px 80px;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.article-content {
+  width: 60%;
+}
+
+.article-content-title {
+  color: rgb(84, 84, 109);
+}
+
+.article-content-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.article-content-div-span {
+  color: gray;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.article-img {
+  position: relative;
+}
+
+.article-img::before {
+  content: "";
+  width: 600px;
+  height: 600px;
+  background-color: rgb(84, 84, 109);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 9px;
+  left: -34px;
+  z-index: -2;
+}
+
+.article-img::after {
+  content: "";
+  background-image: url(/images/award.svg);
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 305px;
+  z-index: -1;
+}
+
+.article-cpe {
+  display: flex;
+  padding: 0 100px;
+  margin: 0 auto;
+  background-color: rgb(20, 22, 43);
+  color: white;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.article-cpe-content-text {
+  width: 90%;
+}
+
+.article-cpe-img img {
+  position: relative;
+  top: 35px;
+}
+
+.article-career {
+  display: flex;
+  padding: 40px 100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.article-career-content {
+  padding-left: 50px;
+}
+
+.article-career-content-title {
+  color: rgb(84, 84, 109);
+}
+
+.article-career-content-text {
+  width: 97%;
+}
+
+.article-career-content-btn {
+  cursor: pointer;
+  border: 1px solid rgb(155, 93, 198);
+  background-color: white;
+  color: rgb(155, 93, 198);
+  border-radius: 50px;
+  padding: 8px;
+  width: 190px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: rgb(44, 44, 58);
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  line-height: 2;
+}
+
+footer h1 {
+  color: rgb(154, 92, 196);
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-rights {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.footer-rights-icons {
+  margin-bottom: 25px;
+}
+
+.footer-rights-icons i {
+  font-size: 30px;
+  margin: auto 12px;
+}
+
+.footer-rights-content p {
+  padding-left: 18px;
+  margin: 0;
+}
